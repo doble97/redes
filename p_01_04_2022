@@ -1,0 +1,3 @@
+1. A la red 192.168.10.0/24 solo se puede tener acceso desde la red 192.168.150.0/24
+2. El equipo con IP 192.168.50.10 no puede acceder a la red 192.168.150.0/24
+3.La reed 192.168.100.0/24 no puede acceder a ninguna otra
