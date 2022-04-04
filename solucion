@@ -1,0 +1,18 @@
+crear una acl
+	access-list 1 deny any
+	interface g0/0/0
+	ip access-group 1 out
+
+2 ejercicio, estos cambios en el router2 del profesor, router0(2) en el mio
+	access-list 1 deny host
+	accest-list 1 permit any
+	int g0/0/0 (lado derecho, para mi g0/0/1)
+	ip access-group 1 in 
+	do write 
+
+1 ejercicio, trabajar en el router 0
+	access-list 1 permit 192.168.150.0 0.0.0.255
+	access-list 1 permit host 192.168.50.10
+	access-lit 1 deny any
+	int g0/0/0 lado izquierdo
+	
